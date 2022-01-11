@@ -164,13 +164,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           await rspC.runRSP("rock");
                         },
                         child: Container(
-                          width: 60,
-                          height: 60,
+                          width: 65,
+                          height: 65,
                           padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(100),
-                            border: Border.all(color: Colors.black, width: 1),
+                            border: Border.all(color: Colors.black, width: 2),
                           ),
                           child: Image.asset("assets/images/rock.png"),
                         ),
@@ -218,7 +218,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                   const SizedBox(
-                    height: 10,
+                    height: 25,
                   ),
                   Container(
                     padding: const EdgeInsets.symmetric(
@@ -290,13 +290,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   const SizedBox(
-                    height: 10,
+                    height: 25,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       SizedBox(
-                        width: 90,
+                        width: 100,
                         height: 40,
                         child: ElevatedButton(
                           onPressed: () => rspC.resetScore(),
