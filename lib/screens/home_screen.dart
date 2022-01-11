@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(100),
-                            border: Border.all(color: Colors.black, width: 1),
+                            border: Border.all(color: Colors.black, width: 2),
                           ),
                           child: Image.asset("assets/images/scissors.png"),
                         ),
@@ -210,7 +210,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(100),
-                            border: Border.all(color: Colors.black, width: 1),
+                            border: Border.all(color: Colors.black, width: 2),
                           ),
                           child: Image.asset("assets/images/paper.png"),
                         ),
